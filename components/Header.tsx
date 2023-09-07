@@ -15,7 +15,8 @@ const StyledHeader = styled.header(({ theme }) => `
   z-index: 20;
   
   & .header-container {
-    position: relative;
+    margin: 0 auto;
+    max-width: 972px;
     width: 100%;
     max-height: 100%;
     height: 100%;

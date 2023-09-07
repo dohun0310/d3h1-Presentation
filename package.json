@@ -6,15 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prebuild": "node pages.js"
   },
   "dependencies": {
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@types/node": "20.5.9",
+    "@types/node": "^20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "@types/webpack-env": "^1.18.1",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
