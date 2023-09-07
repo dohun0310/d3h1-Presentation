@@ -8,7 +8,7 @@ const getFolderNames = (dirPath) => {
 };
 
 const extractMetadata = (content) => {
-  const metadataMatch = content.match(/export const metadata = \{([\s\S]*?)\}/);
+  const metadataMatch = content.match(/export const generateMetadata = \(\) => \{([\s\S]*?)\}/);
   if (metadataMatch) {
     const metadataContent = metadataMatch[1];
     const titleMatch = metadataContent.match(/title: ["'](.*?)["']/);
