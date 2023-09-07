@@ -47,7 +47,7 @@ const main = () => {
       title,
       description,
     };
-  });
+  }).reverse();
 
   saveToJson(folderData);
 };
