@@ -55,10 +55,12 @@ const PageList = () => {
     <StyledPageList>
       {data.map((page: any) => (
         <article key={page.id}>
-          <Link href={page.path}>
-            <h1 className="page-title">{page.title}</h1>
-            <p className="page-description">{page.description}</p>
-          </Link>
+          <div className="article-container">
+            <Link href={page.path}>
+              <h1 className="page-title">{page.title}</h1>
+              <p className="page-description">{page.description}</p>
+            </Link>
+          </div>
         </article>
       ))}
     </StyledPageList>
