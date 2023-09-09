@@ -9,7 +9,7 @@ const noto_sans_kr = Noto_Sans_KR({
 
 export const metadata = {
   title: "d3h1 Presentation",
-  description: "",
+  description: "웹 기반의 발표 자료",
   openGraph: {
     type: "website",
     url: "https://pt.d3h1.com",
@@ -24,7 +24,7 @@ export const metadata = {
     card: "summary_large_image",
     site: "https://pt.d3h1.com",
     title: "d3h1 Presentation",
-    description: "",
+    description: "웹 기반의 발표 자료",
     images: [{
       url: "/opengraph.png",
     }],
