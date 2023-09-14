@@ -14,7 +14,7 @@ export const metadata = {
     type: "website",
     url: "https://pt.d3h1.com",
     title: "d3h1 Presentation",
-    description: "",
+    description: "웹 기반의 발표 자료",
     siteName: "d3h1 Presentation",
     images: [{
       url: "/opengraph.png",

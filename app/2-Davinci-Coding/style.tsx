@@ -6,7 +6,7 @@ const StyledContent = styled.div (({ theme }) => `
   width: 100%  
   height: 100%;
   color: ${theme.colors.white(100)}; 
-  background-color: ${theme.colors.purple(100)};
+  background-color: ${theme.colors.gray(100)};
 
   article {
     margin: 0 auto;
@@ -33,14 +33,12 @@ const StyledContent = styled.div (({ theme }) => `
   .first {
     flex-direction: row;
     gap: 50px;
-
-    & div {
-      transition: opacity 3s ease 1s;
-    }
   }
 
-  .fourth {
-    gap: 10px;
+  .sixth div {
+    display: flex;
+    flex-direction; row;
+    gap: 30px;
   }
 `)
 

@@ -10,7 +10,7 @@ export const generateMetadata = () => {
       url: "https://pt.d3h1.com",
       title: "누워서 읽는 알고리즘",
       description: "임백준의 누워서 읽는 알고리즘을 읽고",
-      siteName: "d3h1 pt",
+      siteName: "d3h1 Presentation",
       images: [{
         url: "/1-Algorithm-To-Read-Lying-Down-Book-Cover.jpeg",
       }],
@@ -37,8 +37,8 @@ const BookAlgorithmToReadLyingDown = () => (
       <Image
         src="/1-Algorithm-To-Read-Lying-Down-Book-Cover.jpeg"
         alt="book cover image"
-        width={300}
-        height={100}
+        width={281}
+        height={450}
       />
     </article>
     <article className="second">
@@ -57,8 +57,8 @@ const BookAlgorithmToReadLyingDown = () => (
       <Image
         src="/1-Algorithm-To-Read-Lying-Down-AI-Img.jpg"
         alt="AI image"
-        width={500}
-        height={100}
+        width={400}
+        height={400}
       />
       <p>{`"이러한 탐색의 과정을 통해서 컴퓨터 자원을 효율적으로 사용할 수 있도록 하는 유익한 알고리즘이 개발되기도 하지만, 사람들이 이러한 탐색에 뛰어드는 동기에는 특별한 이유가 없다. 바로 그것이 재미있는 점이다. 사람들은 종종 '왜'라는 질문 앞에서 굳이 설명할 길이 없는 그런 일들을 위해서 삶을 바치기도 한다. 아무 대가가 없는데 모험으로 가득 찬 고난의 길을 스스로 떠난다." - 누워서 읽는 알고리즘, 74p`}</p>
     </article>
@@ -67,6 +67,5 @@ const BookAlgorithmToReadLyingDown = () => (
     </article>
   </StyledHome>
 )
-
 
 export default BookAlgorithmToReadLyingDown;
