@@ -33,10 +33,6 @@ const StyledContent = styled.div (({ theme }) => `
   .first {
     flex-direction: row;
     gap: 50px;
-
-    & div {
-      transition: opacity 3s ease 1s;
-    }
   }
 
   .fourth {
