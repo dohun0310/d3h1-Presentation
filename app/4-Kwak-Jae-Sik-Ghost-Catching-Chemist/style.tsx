@@ -11,16 +11,7 @@ const StyledContent = styled.div(({ theme }) => `
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    font-size: 60px;
-  }
-
+  
   .first {
     width: 100%;
     height: 90vh;
